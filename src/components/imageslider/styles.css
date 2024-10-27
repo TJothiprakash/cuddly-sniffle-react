@@ -1,0 +1,40 @@
+.container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+  position: relative;
+}
+
+.current-image {
+  width: 100%;
+  max-width: 1080px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.arrow {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.circle-indicators {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 10px;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background-color: grey;
+  border: none;
+  cursor: pointer;
+}
+
+.indicator.active {
+  background-color: white;
+}
