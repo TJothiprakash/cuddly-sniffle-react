@@ -13,12 +13,13 @@
   gap: 20px;
   width: 100%;
   max-width: 1000px;
+  height: auto;
+  margin-top: 5350px;
 }
 
 .product-item {
-
   padding: 20px;
-border: 1px  solid #ccc;
+  border: 1px solid #ccc;
 
   border-radius: 10px;
   text-align: center;
